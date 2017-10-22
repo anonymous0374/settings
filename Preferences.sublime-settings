@@ -164,5 +164,7 @@
 	"use_tab_stops": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "false",
-	"wrap_width": 0
+	"wrap_width": 0,
+	"highlight_line": true,
+	"ensure_newline_at_eof_on_save": true
 }
