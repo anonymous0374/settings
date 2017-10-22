@@ -100,7 +100,7 @@
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": false,
-	"highlight_modified_tabs": false,
+	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
@@ -147,7 +147,7 @@
 	"show_encoding": true,
 	"show_errors_inline": true,
 	"show_full_path": true,
-	"show_line_endings": false,
+	"show_line_endings": true,
 	"show_panel_on_build": true,
 	"show_tab_close_buttons": true,
 	"smart_indent": true,

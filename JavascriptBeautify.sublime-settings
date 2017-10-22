@@ -1,6 +1,5 @@
 {
 "format_on_save": true,
 "indent_size": 2,
-"jslint_happy": true,
-"preserve_newlines": true
+"jslint_happy": true
 }
