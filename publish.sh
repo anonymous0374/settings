@@ -27,6 +27,18 @@ case $version in
     prj2Root=./mpa_v1.2
     publishRoot=./publish/front-b2b-v1.2.0
 ;;
+  1.2.1)
+    echo version 1.2.1
+    prj1Root=./front-b2b-v2.0
+    prj2Root=./mpa_v2.0
+    publishRoot=./publish/frontB2B_V1.2.1
+;;
+  1.2.2)
+    echo version 1.2.2
+    prj1Root=./front-b2b-v1.2.2
+    prj2Root=./mpa_v1.2.2
+    publishRoot=./publish/frontB2B_v1.2.2
+;;
   2.0)
     echo version 2.0
     prj1Root=./front-b2b-v2.0
