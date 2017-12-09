@@ -46,14 +46,17 @@ case $version in
     publishRoot=./publish/frontB2B_v2.0
 ;;
   *)
-    echo 'please give a version number, program exit'
+    echo 'please give a valid version number(1.2 or 1.2.1 or 1.2.2 or 2.0), program exit'
     exit 1
 esac
 
 wd=$(pwd)
 
 # clean up
-rm -rf $publishRoot/* && mkdir $publishRoot/mpa/
+cd $publishRoot
+svn delete ./*  --force && svn commit -m 'clear up' && mkdir mpa
+cd $wd
+#rm -rf $publishRoot/* && mkdir $publishRoot/mpa/
 
 # compile prj1
 cd $prj1Root && npm run release
@@ -61,11 +64,11 @@ cp -ruv dist/* ../$publishRoot/
 cd $wd
 
 # compile prj2
-cd $prj2Root && npm run release:prod
+cd $prj2Root && npm run release
 cp -r ./dist/* ../$publishRoot/mpa/
 cd $wd
 
 # update svn
 cd $publishRoot
-svn add . --force && svn commit -m 'publishing $date'
+svn add . --force && svn commit -m 'publishing'
 cd $wd
