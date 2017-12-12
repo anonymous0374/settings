@@ -54,7 +54,8 @@ wd=$(pwd)
 
 # clean up
 cd $publishRoot
-svn delete ./*  --force && svn commit -m 'clear up' && mkdir mpa
+svn delete ./*  --force && svn commit -m 'clear up'
+mkdir mpa
 cd $wd
 #rm -rf $publishRoot/* && mkdir $publishRoot/mpa/
 
