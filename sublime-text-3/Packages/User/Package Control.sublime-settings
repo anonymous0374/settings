@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Handlebars",
+		"HTMLBeautify",
+		"Javascript Beautify",
+		"Package Control",
+		"TypeScript",
+		"Vue Syntax Highlight",
+		"VueFormatter",
+		"Vuejs Snippets"
+	]
+}
