@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"EJS 2",
+		"ESLint",
+		"ESLint-Formatter",
+		"Handlebars",
+		"HTMLBeautify",
+		"JSX",
+		"LESS",
+		"Package Control",
+		"Pug",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-contrib-stylelint_d",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jsxhint",
+		"TypeScript",
+		"Vuejs Snippets"
+	]
+}

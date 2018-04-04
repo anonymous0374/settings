@@ -1,1 +1,2 @@
-cp ~/.config/sublime-text-3/Packages/User/* -r ./ -uv
+cp ~/.config/sublime-text-3/Packages/User/* -ruv ./ 
+cp ~/.config/sublime-text-3/Installed\ Packages/* -ruv ./ 

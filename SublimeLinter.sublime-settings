@@ -1,0 +1,6 @@
+// SublimeLinter Settings - User
+{
+  "paths": {
+    "linux": ["/usr/bin", "/home/j-sparrow/.yarn/bin/"]
+  }
+}
